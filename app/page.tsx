@@ -1,4 +1,10 @@
-import { Container, Filters, Title, TopBar } from "@/components/shared";
+import {
+  Container,
+  Filters,
+  ProductsGroupList,
+  Title,
+  TopBar,
+} from "@/components/shared";
 
 export default function Home() {
   return (
@@ -9,7 +15,7 @@ export default function Home() {
       <TopBar />
 
       <Container className="pb-14 mt-10">
-        <div className="flex gap-[60px]">
+        <div className="flex gap-[80px]">
           {/* Filters */}
           <div className="w-[250px]">
             <Filters />
@@ -17,7 +23,42 @@ export default function Home() {
 
           {/* List of pizzas */}
           <div className="flex-1">
-            <div className="flex flex-col gap-12">List of pizzas</div>
+            <div className="flex flex-col gap-12">
+              <ProductsGroupList
+                title="Pizzas"
+                items={[
+                  {
+                    id: 1,
+                    name: "Cheese Pizza",
+                    imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrgh6Xx8CBnZM8NPOmIEOwqV_KK6PnE1pluA&s",
+                    items: [{ price: 9.9 }],
+                  },
+                  {
+                    id: 2,
+                    name: "Cheese Pizza",
+                    imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrgh6Xx8CBnZM8NPOmIEOwqV_KK6PnE1pluA&s",
+                    items: [{ price: 9.9 }],
+                  },
+                  {
+                    id: 3,
+                    name: "Cheese Pizza",
+                    imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrgh6Xx8CBnZM8NPOmIEOwqV_KK6PnE1pluA&s",
+                    items: [{ price: 9.9 }],
+                  },
+                  {
+                    id: 4,
+                    name: "Cheese Pizza",
+                    imageUrl:
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrgh6Xx8CBnZM8NPOmIEOwqV_KK6PnE1pluA&s",
+                    items: [{ price: 9.9 }],
+                  },
+                ]}
+                categoryId={1}
+              />
+            </div>
           </div>
         </div>
       </Container>
