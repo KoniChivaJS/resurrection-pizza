@@ -9,10 +9,19 @@ datasource db {
 
 model User {
     id Int @id @default(autoincrement())
-
+ 
     fullName String
-    email String
+    email String @unique
     password String
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
+model Category {
+    id Int @id @default(autoincrement())
+    name String @unique
+    products Product[]
 
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
@@ -23,7 +32,25 @@ model Product {
 
     name String
     imageUrl String
+
+    category Category @relation(fields: [categoryId],references: [id])
+    categoryId Int
     
+    ingredients Ingredient[]
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}
+
+model Ingredient {
+    id Int @id @default(autoincrement())
+
+    name String
+    price Int
+    imageUrl String
+
+    products Product[]
+
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
 }
