@@ -117,103 +117,97 @@ export const products = [
   {
     name: "Omelet with Mushrooms and Herbs",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7970321044479C1D1085457A36EB.webp",
+      "https://static.vecteezy.com/system/resources/previews/049/116/745/non_2x/mushroom-omelet-with-salad-on-a-plate-free-png.png",
     categoryId: 2,
   },
   {
     name: "Omelet with Peppers",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE94ECF33B0C46BA410DEC1B1DD6F8.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYm_0L0CazjkSFMgTL-vDjfw-Ei-V0R8ia5w&s",
     categoryId: 2,
   },
   {
     name: "Latte Coffee",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61B0C26A3F85D97A78FEEE00AD.webp",
+      "https://static.vecteezy.com/system/resources/thumbnails/023/742/327/small_2x/latte-coffee-isolated-illustration-ai-generative-free-png.png",
     categoryId: 2,
   },
   {
     name: "Chicken Wings with Garlic and Herbs",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE796FF0059B799A17F57A9E64C725.webp",
+      "https://png.pngtree.com/png-clipart/20250115/original/pngtree-herb-seasoned-grilled-chicken-wings-for-flavorful-bbq-dishes-png-image_20145998.png",
     categoryId: 3,
   },
   {
     name: "Fried Chicken with Mushrooms",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D618B5C7EC29350069AE9532C6E.webp",
+      "https://png.pngtree.com/png-clipart/20250228/original/pngtree-stir-fried-chicken-with-mushrooms-and-bell-peppers-png-image_20534502.png",
     categoryId: 3,
   },
   {
     name: "Potatoes with Mushrooms in Cream Sauce",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EED646A9CD324C962C6BEA78124F19.webp",
+      "https://static.vecteezy.com/system/resources/previews/041/712/469/non_2x/ai-generated-savory-beef-stew-with-potatoes-and-mushrooms-in-a-creamy-sauce-on-transparent-background-stock-png.png",
     categoryId: 3,
   },
   {
     name: "Dosters",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE796F96D11392A2F6DD73599921B9.webp",
+      "https://png.pngtree.com/png-clipart/20250111/original/pngtree-healthy-tortilla-wraps-with-chicken-and-salad-png-image_19088871.png",
     categoryId: 3,
   },
   {
     name: "Spicy Doster",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE796FD3B594068F7A752DF8161D04.webp",
+      "https://png.pngtree.com/png-clipart/20250111/original/pngtree-healthy-tortilla-wraps-with-chicken-and-salad-png-image_19088871.png",
     categoryId: 3,
   },
   {
     name: "Banana Milkshake",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EEE20B8772A72A9B60CFB20012C185.webp",
+      "https://static.vecteezy.com/system/resources/thumbnails/035/675/712/small/ai-generated-banana-smoothie-in-a-glass-free-png.png",
     categoryId: 4,
   },
   {
     name: "Caramel Apple Milkshake",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE79702E2A22E693D96133906FB1B8.webp",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCr2xvWud4HXbWRljbP12RZNyM3coJsEErOw&s",
     categoryId: 4,
   },
   {
     name: "Milkshake with Oreos",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE796FA1F50F8F8111A399E4C1A1E3.webp",
+      "https://png.pngtree.com/png-clipart/20240902/original/pngtree-oreo-shake-image-png-image_15916561.png",
     categoryId: 4,
   },
   {
     name: "Classic Milkshake",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE796F93FB126693F96CB1D3E403FB.webp",
+      "https://png.pngtree.com/png-clipart/20240505/original/pngtree-classic-milkshake-in-retro-diner-glass-isolated-on-white-background-png-image_15014401.png",
     categoryId: 4,
   },
   {
     name: "Irish Capuccino",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61999EBDA59C10E216430A6093.webp",
+      "https://png.pngtree.com/png-clipart/20240703/original/pngtree-irish-coffee-with-whipped-cream-and-a-stirrer-png-image_15473333.png",
     categoryId: 5,
   },
   {
     name: "Caramel Capuccino",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61AED6B6D4BFDAD4E58D76CF56.webp",
+      "https://png.pngtree.com/png-vector/20241225/ourmid/pngtree-rich-creamy-irish-coffee-clipart-illustration-png-image_14878898.png",
     categoryId: 5,
   },
   {
     name: "Coffee Latte",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61B19FA07090EE88B0ED347F42.webp",
+      "https://png.pngtree.com/png-vector/20241225/ourmid/pngtree-rich-creamy-irish-coffee-clipart-illustration-png-image_14878898.png",
     categoryId: 5,
   },
   {
     name: "Americano Coffee",
     imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61B044583596548A59078BBD33.webp",
-    categoryId: 5,
-  },
-  {
-    name: "Latte Coffee",
-    imageUrl:
-      "https://media.dodostatic.net/image/r:292x292/11EE7D61B0C26A3F85D97A78FEEE00AD.webp",
+      "https://png.pngtree.com/png-vector/20240821/ourmid/pngtree-top-americano-coffee-png-image_13268228.png",
     categoryId: 5,
   },
 ];

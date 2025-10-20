@@ -60,7 +60,7 @@ async function up() {
     data: {
       name: "Pepperoni",
       imageUrl:
-        "https://media.dodostatic.net/image/r:233x233/11EE7D61304FAF5A98A6958F2BB2D260.webp",
+        "https://png.pngtree.com/png-clipart/20240306/original/pngtree-pizza-pepperoni-food-png-image_14529292.png",
       categoryId: 1,
       ingredients: {
         connect: ingredients.slice(0, 5),
@@ -72,7 +72,7 @@ async function up() {
     data: {
       name: "Cheese",
       imageUrl:
-        "https://media.dodostatic.net/image/r:233x233/11EE7D610CF7E265B7C72BE5AE757CA7.webp",
+        "https://static.vecteezy.com/system/resources/thumbnails/041/326/141/small_2x/ai-generated-cheese-pizza-isolated-on-transparent-background-png.png",
       categoryId: 1,
       ingredients: {
         connect: ingredients.slice(5, 10),
@@ -84,7 +84,7 @@ async function up() {
     data: {
       name: "Chorizo Fresh",
       imageUrl:
-        "https://media.dodostatic.net/image/r:584x584/11EE7D61706D472F9A5D71EB94149304.webp",
+        "https://png.pngtree.com/png-clipart/20250604/original/pngtree-spanish-chorizo-pizza-png-image_21122745.png",
       categoryId: 1,
       ingredients: {
         connect: ingredients.slice(10, 40),
