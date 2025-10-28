@@ -35,6 +35,7 @@ export default async function ProductPage({
             recusandae et id at!
           </p>
           <GroupVariants
+            value="1"
             items={[
               {
                 name: "Small",

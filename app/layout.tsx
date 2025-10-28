@@ -1,18 +1,11 @@
-import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
+import { Saira } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/shared";
 
-const nunito = Nunito({
-  subsets: ["cyrillic"],
-  variable: "--font-nunito",
+const saira = Saira({
+  subsets: ["latin"],
+  variable: "--font-saira",
   weight: ["400", "500", "600", "700", "800", "900"],
 });
-
-export const metadata: Metadata = {
-  title: "Resurrection Pizza",
-  description: "NEXT.JS + SHADCN UI + TAILWINDCSS + TYPESCRIPT",
-};
 
 export default function RootLayout({
   children,
@@ -21,12 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={nunito.variable}>
-        <main className="min-h-screen">
-          <Header />
-          {children}
-        </main>
-      </body>
+      <head>
+        <link data-rh="true" rel="icon" href="../public/logo.png" />
+      </head>
+      <body className={saira.className}>{children}</body>
     </html>
   );
 }
