@@ -13,7 +13,7 @@ export default async function Home() {
       products: {
         include: {
           ingredients: true,
-          prodcutItems: true,
+          items: true,
         },
       },
     },

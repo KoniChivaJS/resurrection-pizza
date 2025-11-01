@@ -46,7 +46,7 @@ model Product {
     categoryId Int
     
     ingredients Ingredient[]
-    prodcutItems ProductItem[]
+    items ProductItem[]
 
     createdAt DateTime @default(now())
     updatedAt DateTime @updatedAt
